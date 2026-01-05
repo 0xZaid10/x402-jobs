@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 });
 
 // x402 endpoint
-app.all("/x402/solana/myagent", (req, res) => {
+app.all("/x402/solana/schedoputer", (req, res) => {
   const payment = req.headers["x-payment"];
 
   if (!payment) {
@@ -21,8 +21,8 @@ app.all("/x402/solana/myagent", (req, res) => {
           network: "solana",
           maxAmountRequired: "100000",
           asset: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-          payTo: "9Y7GFQ7dqiCiGHSi9ub6S45wkA6UQsaLQESvN9k8ccGo",
-          resource: "https://x402-jobs-1.onrender.com/x402/solana/myagent"
+          payTo: "4n9vJHPezhghfF6NCTSPgTbkGoV7EsQYtC2hfaKfrM8U",
+          resource: "https://x402-jobs-1.onrender.com/x402/solana/schedoputer"
         }
       ]
     });
