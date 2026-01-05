@@ -3,12 +3,12 @@ import express from "express";
 const app = express();
 app.use(express.json());
 
-// ROOT ROUTE (this fixes your error)
+// Root test
 app.get("/", (req, res) => {
   res.send("OK");
 });
 
-// x402 test route
+// x402 endpoint
 app.all("/x402/solana/myagent", (req, res) => {
   const payment = req.headers["x-payment"];
 
