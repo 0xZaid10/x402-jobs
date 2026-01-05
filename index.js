@@ -22,7 +22,7 @@ app.all("/x402/solana/myagent", (req, res) => {
           maxAmountRequired: "100000",
           asset: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
           payTo: "9Y7GFQ7dqiCiGHSi9ub6S45wkA6UQsaLQESvN9k8ccGo",
-          resource: "https://x402-jobs.onrender.com/x402/solana/myagent"
+          resource: "https://x402-jobs-1.onrender.com/x402/solana/myagent"
         }
       ]
     });
